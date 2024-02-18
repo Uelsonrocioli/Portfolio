@@ -707,10 +707,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: none; /*#149ddd;*/
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  /* border: 1px solid #149ddd; */
 }
 
 .services .icon i {
@@ -746,6 +746,7 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  color: #888;
 }
 
 /*--------------------------------------------------------------
